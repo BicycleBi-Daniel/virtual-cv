@@ -1,10 +1,9 @@
 /* Experience Section */
 .experience-section {
-  background: #000;
+  background: #111;
   color: #fff;
-  width: 100vw;
+  padding: 80px 0 60px 0;
   min-height: 400px;
-  padding: 64px 0;
 }
 .experience-container {
   max-width: 1200px;
@@ -16,7 +15,10 @@
   font-weight: 800;
   margin-bottom: 2rem;
   letter-spacing: 0.08em;
-  text-align: center;
+  text-align: left;
+  position: relative;
+  left: calc(50% - 600px);
+  width: max-content;
 }
 body {
   margin: 0;
@@ -185,53 +187,184 @@ body {
   }
 }
 
-/* Timeline horizontal line background */
-.experience-timeline-line-bg {
-  position: absolute;
-  top: 38px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: #7A3E15;
-  z-index: 0;
-  border-radius: 2px;
-}
-.experience-timeline-wrapper {
-  position: relative;
-}
-.experience-timeline {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
-  min-width: 1100px;
-  gap: 0;
-}
-.experience-timeline-item {
+/* Experience Cards */
+.experience-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  flex: 1 1 0;
-  min-width: 0;
-  height: 80px;
+  gap: 32px;
+  margin-left: 0;
 }
-.experience-timeline-dot {
-  position: absolute;
-  top: 31px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 14px;
-  height: 14px;
-  background: #fff;
-  border: 3px solid #7A3E15;
-  border-radius: 50%;
-  z-index: 2;
+.experience-card {
+  background: #222;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+  padding: 32px 28px 24px 28px;
+  min-width: 520px;
+  max-width: 800px;
+  width: 100%;
+  color: #fff;
+  border-bottom: 4px solid #a67c52;
+  font-size: 1.1rem;
 }
-.experience-timeline-year {
-  margin-top: 3.4rem;
-  font-size: 0.95rem;
+.experience-card h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 1.3rem;
+  color: #e0b97d;
+}
+.experience-card ul {
+  padding-left: 18px;
+  margin: 0;
+}
+.experience-card li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.experience-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.experience-dates {
+  font-size: 1rem;
+  color: #bfa77a;
+  background: #191919;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.experience-role {
+  font-weight: 600;
+  color: #e0b97d;
+  margin-bottom: 10px;
+  font-size: 1.08rem;
+}
+.experience-section h2 {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Skills Section */
+.skills-section {
+  background: #f7f0e8;
+  color: #222;
+  padding: 80px 0 60px 0;
+  min-height: 300px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 3rem;
+  margin-bottom: 32px;
+  color: #a67c52;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   font-weight: 700;
+}
+
+.skills-category {
+  margin-bottom: 36px;
+}
+
+.skills-category h3 {
+  color: #a67c52;
+  font-size: 1.35rem;
+  margin-bottom: 18px;
+  margin-top: 0;
+  letter-spacing: 0.5px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px 36px;
+}
+
+.skills-list li {
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Resume Section */
+.resume-section {
+  background: #000;
+  color: #fff;
+  padding: 80px 0 60px 0;
+  min-height: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.resume-section h2 {
+  font-size: 3rem;
+  margin-bottom: 32px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-content {
+  margin: 0 auto;
+  max-width: 900px;
+  min-height: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-download-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 14px 32px;
+  background: #e0b97d;
+  color: #000;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.resume-download-btn:hover {
+  background: #a67c52;
   color: #fff;
 }
