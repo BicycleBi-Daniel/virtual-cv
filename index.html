@@ -10,5 +10,10 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if (window.location.pathname === "/virtual-cv/") {
+        window.location.replace(window.location.href + "#top");
+      }
+    </script>
   </body>
 </html>
