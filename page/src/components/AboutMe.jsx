@@ -11,7 +11,7 @@ const AboutMe = () => (
     <div className="about-container">
       <div className="about-left">
         <img
-          src="/assets/aboutme.jpg"
+          src="/virtual-cv/assets/aboutme.jpg"
           alt="Daniel Van Wyk"
           className="about-profile-img"
         />

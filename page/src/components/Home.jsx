@@ -10,7 +10,7 @@ const Home = () => (
     </div>
     <div className="home-right">
       <img
-        src="/assets/profile_image.png"
+        src="/virtual-cv/assets/profile_image.png"
         alt="Daniel van Wyk"
         className="home-profile-img"
       />

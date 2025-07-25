@@ -6,7 +6,7 @@ const Resume = () => (
     <div className="container">
       <h2 className="resume-heading">Resume / CV</h2>
       <iframe
-        src="/assets/resume.pdf"
+        src="/virtual-cv/assets/resume.pdf"
         width="100%"
         height="1100px"
         title="Resume"
@@ -14,7 +14,7 @@ const Resume = () => (
       />
       <div style={{ marginTop: 16 }}>
         <a
-          href="/assets/resume.pdf"
+        href="/virtual-cv/assets/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: '#1a223f', fontWeight: 500 }}
