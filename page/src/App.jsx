@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
 import EducationSection from './components/EducationSection';
 import './styles.css';
 
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section id="about">
         <AboutMe />
+      </section>
+      <section id="experience">
+        <Experience />
       </section>
       {/* <section id="education">
         <EducationSection />

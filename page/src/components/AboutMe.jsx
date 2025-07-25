@@ -19,7 +19,7 @@ const AboutMe = () => (
       <div className="about-right">
         <div className="about-block">
           <h3 className="about-section-header">ABOUT ME</h3>
-          <h2 className="about-heading">Details are everything.</h2>
+          <h2 className="about-heading">About Me</h2>
           <p className="about-body">
             I am a Business Intelligence Consultant with nearly 10 years of experience across the full BI development lifecycle, including data warehousing, ETL, dashboarding, and SQL. Known for delivering practical, insight-driven solutions and progressing rapidly into leadership roles. Certified in MicroStrategy and Pyramid Analytics, with a strong focus on aligning project outcomes with business objectives.
           </p>
@@ -29,9 +29,6 @@ const AboutMe = () => (
         </div>
         {/* Education Timeline */}
         <EducationSection />
-        <div className="about-block">
-          <h4 className="about-section-header">EXPERIENCE</h4>
-        </div>
       </div>
     </div>
   </section>
