@@ -7,6 +7,7 @@ import EducationSection from './components/EducationSection';
 import Skills from './components/Skills';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import './styles.css';
 
 function App() {
@@ -38,7 +39,9 @@ function App() {
       {/* <section id="education">
         <EducationSection />
       </section> */}
-      {/* Future sections: <Contact /> */}
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 }
