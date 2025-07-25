@@ -1,3 +1,4 @@
+// Author: Daniel Van Wyk
 
 
 import React from 'react';
@@ -27,9 +28,12 @@ const AboutMe = () => (
             I’m a patient and thorough learner with a deep respect for detail. I thrive in environments where I can stick around, grow, and excel, both technically and personally. My creative touch and ability to apply abstract thinking often help me see patterns and possibilities others might miss.
           </p>
         </div>
-        {/* Education Timeline */}
+        
         <EducationSection />
       </div>
+    </div>
+    <div style={{marginTop: 40, textAlign: 'center', color: '#bfa77a', fontWeight: 600, fontSize: '1.1rem'}}>
+      — Daniel Van Wyk
     </div>
   </section>
 );

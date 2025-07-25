@@ -1,3 +1,4 @@
+// Author: Daniel Van Wyk
 import React from 'react';
 
 
@@ -14,6 +15,9 @@ const Projects = () => (
         <a href="https://github.com/33505136-vanWykD/spca_project.git" target="_blank" rel="noopener noreferrer">GitHub</a>
       </li>
     </ul>
+    <div style={{marginTop: 40, textAlign: 'center', color: '#bfa77a', fontWeight: 600, fontSize: '1.1rem'}}>
+      — Daniel Van Wyk
+    </div>
   </section>
 );
 

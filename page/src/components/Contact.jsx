@@ -1,3 +1,4 @@
+// Author: Daniel Van Wyk
 import React from 'react';
 
 const Contact = () => (
@@ -16,6 +17,9 @@ const Contact = () => (
         <a href="https://github.com/BicycleBi-Daniel" target="_blank" rel="noopener noreferrer">GitHub</a> |
         <a href="mailto:vwyk.daniel@gmail.com">vwyk.daniel@gmail.com</a>
       </div>
+    </div>
+    <div style={{marginTop: 40, textAlign: 'center', color: '#bfa77a', fontWeight: 600, fontSize: '1.1rem'}}>
+      — Daniel Van Wyk
     </div>
   </section>
 );
