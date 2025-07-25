@@ -1,4 +1,5 @@
 
+// Author: Daniel Van Wyk
 import React from 'react';
 import '../styles.css';
 

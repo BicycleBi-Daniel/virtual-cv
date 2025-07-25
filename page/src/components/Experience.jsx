@@ -1,3 +1,4 @@
+// Author: Daniel Van Wyk
 import React from 'react';
 import '../styles.css';
 
@@ -51,6 +52,9 @@ const Experience = () => (
         </div>
         {/* Add more cards here as needed */}
       </div>
+    </div>
+    <div style={{marginTop: 40, textAlign: 'center', color: '#bfa77a', fontWeight: 600, fontSize: '1.1rem'}}>
+      — Daniel Van Wyk
     </div>
   </section>
 );

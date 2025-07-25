@@ -1,5 +1,6 @@
 
 
+// Author: Daniel Van Wyk
 import React from 'react';
 import './AboutMe.css';
 import EducationSection from '../styles/../components/EducationSection';
@@ -30,6 +31,9 @@ const AboutMe = () => (
         {/* Education Timeline */}
         <EducationSection />
       </div>
+    </div>
+    <div style={{marginTop: 40, textAlign: 'center', color: '#bfa77a', fontWeight: 600, fontSize: '1.1rem'}}>
+      — Daniel Van Wyk
     </div>
   </section>
 );
