@@ -1,3 +1,4 @@
+// Author: Daniel Van Wyk
 
 // Author: Daniel Van Wyk
 import React from 'react';

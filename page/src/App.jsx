@@ -37,12 +37,14 @@ function App() {
       <section id="projects">
         <Projects />
       </section>
-      {/* <section id="education">
-        <EducationSection />
-      </section> */}
+          
+          
       <section id="contact">
         <Contact />
       </section>
+      <div style={{marginTop: 40, textAlign: 'center', color: '#bfa77a', fontWeight: 600, fontSize: '1.1rem'}}>
+        — Daniel Van Wyk
+      </div>
     </div>
   );
 }

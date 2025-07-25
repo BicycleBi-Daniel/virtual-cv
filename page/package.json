@@ -3,15 +3,23 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://BicycleBi-Daniel.github.io/virtual-cv",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
+<<<<<<< HEAD
     "deploy": "gh-pages -d dist"
+=======
+    "deploy": "gh-pages -d dist",
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+>>>>>>> 9fcf96be599ba8f933d068b93b154075007cb1c9
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
