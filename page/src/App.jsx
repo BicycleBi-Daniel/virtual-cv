@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutMe from './components/AboutMe';
 import './styles.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <AboutMe />
       {/* Future sections: <Education />, <Skills />, <Resume />, <Projects />, <Contact /> */}
     </>
   );
