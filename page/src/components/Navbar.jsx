@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import '../styles.css';
 
 const NAV_LINKS = [
+  { label: 'HOME', href: '#top' },
   { label: 'ABOUT', href: '#about' },
   { label: 'EDUCATION', href: '#education' },
   { label: 'SKILLS', href: '#skills' },

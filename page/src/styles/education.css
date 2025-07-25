@@ -1,0 +1,95 @@
+/* Education & Certifications Timeline Styles */
+.education-section {
+  background: #f7f0e8;
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+}
+
+.education-header {
+  font-size: 2rem;
+  color: #4B2E13;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #4B2E13;
+  border-radius: 2px;
+}
+
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.education-year {
+  min-width: 80px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #7A3E15;
+  margin-right: 2rem;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+
+.education-details {
+  background: #fff;
+  border: 1.5px solid #e0d6c3;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  color: #4B2E13;
+  min-width: 220px;
+}
+
+.education-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.education-institution {
+  font-size: 1rem;
+  color: #6b4b2b;
+}
+
+.education-extra {
+  font-size: 0.95rem;
+  color: #3a2410;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 700px) {
+  .education-timeline {
+    margin-left: 0.5rem;
+  }
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education-year {
+    text-align: left;
+    margin-bottom: 0.3rem;
+  }
+  .education-details {
+    padding: 1rem;
+  }
+}

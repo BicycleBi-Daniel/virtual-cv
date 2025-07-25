@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './AboutMe.css';
+import EducationSection from '../styles/../components/EducationSection';
 
 const AboutMe = () => (
   <section className="about-section" id="about">
@@ -26,16 +27,8 @@ const AboutMe = () => (
             I’m a patient and thorough learner with a deep respect for detail. I thrive in environments where I can stick around, grow, and excel, both technically and personally. My creative touch and ability to apply abstract thinking often help me see patterns and possibilities others might miss.
           </p>
         </div>
-        <div className="about-block">
-          <h4 className="about-section-header">EDUCATION</h4>
-          <div className="about-education-row">
-            <span className="about-education-year">2014</span>
-            <div>
-              <span className="about-education-degree">Matriculated</span><br />
-              <span className="about-education-school">[School name or placeholder]</span>
-            </div>
-          </div>
-        </div>
+        {/* Education Timeline */}
+        <EducationSection />
         <div className="about-block">
           <h4 className="about-section-header">EXPERIENCE</h4>
         </div>
