@@ -8,7 +8,7 @@ const AboutMe = () => (
     <div className="about-container">
       <div className="about-left">
         <img
-          src="/assetsniomni.png"
+          src="/assets/aboutme.jpg"
           alt="Daniel Van Wyk"
           className="about-profile-img"
         />

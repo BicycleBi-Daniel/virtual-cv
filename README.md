@@ -22,8 +22,20 @@ This is a React-based personal portfolio website (Virtual CV) built with Vite. I
 
 
 ## Structure
-- Components are in `src/components/`
-- Static assets and resume PDF go in `public/`
+- Components are in 'src/components/'
+- Static assets and resume PDF go in 'public/'
 
+## UI Overview
+
+I tried to have a cleaner more modern look to my cv with these sections with a bar menu and a color scheme of black and some brown
+
+- **About Me**: Shows a few pictures of me and 
+	includes parts that gives a bit of a bio, education and a summary of work experience. 
+- **Resume/CV**: Downloadable PDF and display PDF
+- **Projects**: Some projects - can be updated later to add more projects
+- **Skills**: Summary of my skills
+- **Contact**: Contact information if one would like to contact me. 
 ---
-> Components Completed: CV, LinkedIn Profile, GitHub Repositories
+
+
+
