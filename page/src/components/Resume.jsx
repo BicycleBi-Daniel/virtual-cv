@@ -3,11 +3,11 @@ import React from 'react';
 const Resume = () => (
   <section id="resume" style={{ backgroundColor: '#000', padding: '40px 0', color: '#fff' }}>
     <div className="container">
-      <h2 style={{ color: '#1a223f' }}>Resume / CV</h2>
+      <h2 className="resume-heading">Resume / CV</h2>
       <iframe
         src="/assets/resume.pdf"
         width="100%"
-        height="700px"
+        height="1100px"
         title="Resume"
         style={{ border: '1px solid #1a223f', borderRadius: 8, background: '#fff' }}
       />
