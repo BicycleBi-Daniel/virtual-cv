@@ -1,3 +1,32 @@
+@media (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+    padding: 32px 1rem;
+    min-height: unset;
+  }
+  .about-left {
+    min-width: 0;
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+    padding: 0 0 1.5rem 0;
+    transform: none;
+  }
+  .about-profile-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 24px auto;
+  }
+  .about-name {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
 /* About Me Section Styles */
 .about-section {
   background: #f7f0e8;
